@@ -107,6 +107,12 @@ function App() {
             <p><strong>Tech:</strong> Python, OR-Tools, NetworkX, Streamlit, Render</p>
             <a href="https://route-optimization-project.onrender.com" target="_blank">Live Demo</a> | <a href="https://github.com/rishiraj2323/route-optimization-project" target="_blank">GitHub</a>
           </div>
+          <div className="project-card">
+  <h3>E-Commerce Review Intelligence Dashboard</h3>
+  <p>End-to-end pipeline that scrapes Flipkart smartwatch reviews, runs DistilBERT sentiment analysis, and surfaces cases where a customer's star rating doesn't match the sentiment of their written review, all in an interactive Streamlit dashboard.</p>
+  <p><strong>Tech:</strong> Python, Selenium, BeautifulSoup, PostgreSQL, DistilBERT, Streamlit</p>
+  <a href="https://review-intelligence-dashboard-7vqjkz4ehecgz9zfcwsiuw.streamlit.app" target="_blank">Live Demo</a> | <a href="https://github.com/rishiraj2323/review-intelligence-dashboard" target="_blank">GitHub</a>
+</div>
 
         </div>
       </section>
