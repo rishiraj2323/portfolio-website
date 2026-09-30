@@ -100,3 +100,130 @@ section h2 {
   gap: 20px;
   flex-wrap: wrap;
 }
+
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #444;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 15px 0 8px 0;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: #4da3ff;
+  color: #0f0f0f;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #4da3ff;
+  border: 2px solid #4da3ff;
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #333;
+  display: block;
+}
+
+.app {
+  max-width: 1100px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.project-card {
+  margin-bottom: 0;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #4da3ff;
+}
+
+@media (max-width: 800px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 30px;
+  background: rgba(15, 15, 15, 0.9);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #333;
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+  color: #4da3ff;
+}
