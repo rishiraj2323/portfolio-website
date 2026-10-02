@@ -38,20 +38,43 @@ function App() {
         <p>
           I'm a Data Science graduate passionate about building end-to-end machine learning projects — from data pipelines to deployed, production-ready applications. Currently looking for Data Scientist / Data Analyst internship opportunities, with additional hands-on experience in Power BI analytics and Business Analysis.
         </p>
-        <div className="skills-list">
-          <span>Python</span>
-          <span>SQL</span>
-          <span>Machine Learning</span>
-          <span>XGBoost / LightGBM</span>
-          <span>Power BI</span>
-          <span>PostgreSQL</span>
-          <span>Flask</span>
-          <span>Streamlit</span>
-          <span>Pandas / NumPy</span>
-          <span>Scikit-learn</span>
-          <span>Git / GitHub</span>
-          <span>Render Deployment</span>
-        </div>
+        <div className="skill-group">
+  <h3 className="skill-group-title">Programming & Machine Learning</h3>
+  <div className="skills-list">
+    <span>Python</span>
+    <span>Pandas / NumPy</span>
+    <span>Scikit-learn</span>
+    <span>Machine Learning</span>
+    <span>XGBoost / LightGBM</span>
+  </div>
+</div>
+
+<div className="skill-group">
+  <h3 className="skill-group-title">SQL & Databases</h3>
+  <div className="skills-list">
+    <span>SQL</span>
+    <span>PostgreSQL</span>
+    <span>Window Functions</span>
+    <span>CTEs / Recursive Queries</span>
+    <span>Query Optimization</span>
+    <span>Indexing</span>
+    <span>Views</span>
+    <span>Stored Procedures</span>
+    <span>Transactions / ACID</span>
+    <span>Normalization</span>
+  </div>
+</div>
+
+<div className="skill-group">
+  <h3 className="skill-group-title">Analytics & Deployment</h3>
+  <div className="skills-list">
+    <span>Power BI</span>
+    <span>Flask</span>
+    <span>Streamlit</span>
+    <span>Git / GitHub</span>
+    <span>Render Deployment</span>
+  </div>
+</div>
       </section>
 
       <section id="projects">

@@ -311,3 +311,28 @@ section {
     gap: 14px;
   }
 }
+
+.skill-group {
+  margin-top: 28px;
+}
+
+.skill-group-title {
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #8a8a8a;
+  margin: 0 0 12px;
+}
+
+.skill-group .skills-list {
+  margin-top: 0;
+}
+
+.project-list {
+  align-items: stretch;
+}
+
+.project-card {
+  color: #555;
+}
