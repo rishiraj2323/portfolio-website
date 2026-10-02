@@ -346,3 +346,40 @@ h1,
 h2 {
   color: #f3f4f6;
 }
+
+.nav-links {
+  align-items: center;
+}
+
+.theme-toggle {
+  background: transparent;
+  border: 1px solid #444;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+:root[data-theme="light"] { color-scheme: light; background: #f7f7f8; }
+[data-theme="light"] body { background: #f7f7f8; color: #1f2328; }
+[data-theme="light"] h1, [data-theme="light"] h2 { color: #111; }
+[data-theme="light"] header p { color: #555; }
+[data-theme="light"] section h2 { border-bottom-color: #d0d0d5; }
+[data-theme="light"] .navbar { background: rgba(247, 247, 248, 0.9); border-bottom-color: #d9d9de; }
+[data-theme="light"] .nav-links a { color: #1f2328; }
+[data-theme="light"] .nav-links a:hover { color: #0b69d4; }
+[data-theme="light"] .theme-toggle { border-color: #d0d0d5; }
+[data-theme="light"] .profile-pic { border-color: #d0d0d5; }
+[data-theme="light"] .btn-primary { background: #0b69d4; color: #fff; }
+[data-theme="light"] .btn-secondary { color: #0b69d4; border-color: #0b69d4; }
+[data-theme="light"] .skills-list span { background: #fff; border-color: #d0d0d5; color: #1f2328; }
+[data-theme="light"] .skill-group-title { color: #666; }
+[data-theme="light"] .project-card { background: #fff; border-color: #dcdce1; color: #999; }
+[data-theme="light"] .project-card:hover { border-color: #0b69d4; box-shadow: 0 12px 30px rgba(11, 105, 212, 0.12); }
+[data-theme="light"] .project-card h3 { color: #111; }
+[data-theme="light"] .project-card p { color: #444; }
+[data-theme="light"] .project-card a, [data-theme="light"] .contact-list a { color: #0b69d4; }
+[data-theme="light"] .project-img { border-color: #dcdce1; }

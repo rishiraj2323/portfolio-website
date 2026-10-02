@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import './App.css'
 import profilePic from './assets/profile.jpeg'
 import fintechImg from './assets/fintech-screenshot.png.png'
@@ -9,6 +10,11 @@ import routeoptImg from './assets/routeopt-screenshot.png.png'
 import reviewImg from './assets/dashboard_overview.png'
 
 function App() {
+    const [theme, setTheme] = useState('dark')
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+  }, [theme])
   return (
     <div className="app">
       <nav className="navbar">
@@ -17,6 +23,9 @@ function App() {
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
+    <button className="theme-toggle" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="Toggle theme">
+  {theme === 'dark' ? '☀️' : '🌙'}
+</button>
   </div>
 </nav>
       <header className="hero">
