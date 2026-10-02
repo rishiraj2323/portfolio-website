@@ -383,3 +383,80 @@ h2 {
 [data-theme="light"] .project-card p { color: #444; }
 [data-theme="light"] .project-card a, [data-theme="light"] .contact-list a { color: #0b69d4; }
 [data-theme="light"] .project-img { border-color: #dcdce1; }
+
+.contact-list {
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  background: #1a1a1a;
+  border: 1px solid #2f2f2f;
+  border-radius: 999px;
+  color: #e0e0e0;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-list a:hover {
+  transform: translateY(-4px);
+  border-color: #4da3ff;
+  box-shadow: 0 10px 24px rgba(77, 163, 255, 0.15);
+  text-decoration: none;
+}
+
+.contact-list a[href^="mailto"]::before { content: "✉️"; }
+.contact-list a[href*="linkedin"]::before { content: "💼"; }
+.contact-list a[href*="github"]::before { content: "💻"; }
+.contact-list a[href^="tel"]::before { content: "📞"; }
+
+[data-theme="light"] .contact-list a {
+  background: #fff;
+  border-color: #d0d0d5;
+  color: #1f2328;
+}
+
+[data-theme="light"] .contact-list a:hover {
+  border-color: #0b69d4;
+  box-shadow: 0 10px 24px rgba(11, 105, 212, 0.15);
+}
+
+.practice-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.practice-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: 170px;
+  padding: 22px 28px;
+  background: #1a1a1a;
+  border: 1px solid #2f2f2f;
+  border-radius: 14px;
+}
+
+.practice-name { font-weight: 600; font-size: 1.05rem; }
+.practice-stars { color: #f5b301; font-size: 1.4rem; letter-spacing: 3px; }
+.practice-note { font-size: 0.8rem; color: #8a8a8a; }
+
+.practice-link {
+  display: inline-block;
+  margin-top: 22px;
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+[data-theme="light"] .practice-card { background: #fff; border-color: #dcdce1; }
+[data-theme="light"] .practice-note { color: #666; }
+[data-theme="light"] .practice-link { color: #0b69d4; }

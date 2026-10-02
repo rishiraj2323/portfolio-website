@@ -9,6 +9,13 @@ import timeseriesImg from './assets/timeseries-screenshot.png.png'
 import routeoptImg from './assets/routeopt-screenshot.png.png'
 import reviewImg from './assets/dashboard_overview.png'
 
+const hackerrank = {
+  profileUrl: 'https://www.hackerrank.com/profile/rishiraj2323',
+  skills: [
+    { name: 'SQL', stars: 4 },
+    { name: 'Python', stars: 1, note: 'in progress' },
+  ],
+}
 function App() {
     const [theme, setTheme] = useState('dark')
 
@@ -85,6 +92,20 @@ function App() {
   </div>
 </div>
       </section>
+
+<section id="practice">
+  <h2>Coding Practice</h2>
+  <div className="practice-grid">
+    {hackerrank.skills.map((s) => (
+      <div className="practice-card" key={s.name}>
+        <span className="practice-name">{s.name}</span>
+        <span className="practice-stars">{'★'.repeat(s.stars)}{'☆'.repeat(5 - s.stars)}</span>
+        {s.note && <span className="practice-note">{s.note}</span>}
+      </div>
+    ))}
+  </div>
+  <a className="practice-link" href={hackerrank.profileUrl} target="_blank">View HackerRank profile →</a>
+</section>
 
       <section id="projects">
         <h2>Projects</h2>
