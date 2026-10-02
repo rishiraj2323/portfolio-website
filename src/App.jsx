@@ -6,6 +6,7 @@ import ecommerceImg2 from './assets/ecommerce-screenshot2.png.png'
 import healthcareImg from './assets/healthcare-screenshot.png.png'
 import timeseriesImg from './assets/timeseries-screenshot.png.png'
 import routeoptImg from './assets/routeopt-screenshot.png.png'
+import reviewImg from './assets/dashboard_overview.png'
 
 function App() {
   return (
@@ -108,6 +109,9 @@ function App() {
             <a href="https://route-optimization-project.onrender.com" target="_blank">Live Demo</a> | <a href="https://github.com/rishiraj2323/route-optimization-project" target="_blank">GitHub</a>
           </div>
           <div className="project-card">
+            <div className="project-images">
+  <img src={reviewImg} alt="Review Intelligence Dashboard screenshot" className="project-img" />
+</div>
   <h3>E-Commerce Review Intelligence Dashboard</h3>
   <p>End-to-end pipeline that scrapes Flipkart smartwatch reviews, runs DistilBERT sentiment analysis, and surfaces cases where a customer's star rating doesn't match the sentiment of their written review, all in an interactive Streamlit dashboard.</p>
   <p><strong>Tech:</strong> Python, Selenium, BeautifulSoup, PostgreSQL, DistilBERT, Streamlit</p>
