@@ -109,6 +109,7 @@ function App() {
 
       <section id="projects">
         <h2>Projects</h2>
+        <p className="demo-note">Live demos run on free hosting, so the first click may take a short while to wake up.</p>
         <div className="project-list">
 
           <div className="project-card">

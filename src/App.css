@@ -460,3 +460,13 @@ h2 {
 [data-theme="light"] .practice-card { background: #fff; border-color: #dcdce1; }
 [data-theme="light"] .practice-note { color: #666; }
 [data-theme="light"] .practice-link { color: #0b69d4; }
+
+.demo-note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #8a8a8a;
+  margin: 16px 0 24px;
+}
+
+[data-theme="light"] .demo-note { color: #666; }
+
