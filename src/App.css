@@ -55,7 +55,7 @@ section h2 {
 }
 
 .project-card a {
-  color: #4da3ff;
+  color: #2dd4bf;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -85,7 +85,7 @@ section h2 {
 }
 
 .contact-list a {
-  color: #4da3ff;
+  color: #2dd4bf;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -143,14 +143,14 @@ section h2 {
 }
 
 .btn-primary {
-  background: #4da3ff;
+  background: #2dd4bf;
   color: #0f0f0f;
 }
 
 .btn-secondary {
   background: transparent;
-  color: #4da3ff;
-  border: 2px solid #4da3ff;
+  color: #2dd4bf;
+  border: 2px solid #2dd4bf;
 }
 
 .project-images {
@@ -186,7 +186,7 @@ section h2 {
 
 .project-card:hover {
   transform: translateY(-4px);
-  border-color: #4da3ff;
+  border-color: #2dd4bf;
 }
 
 @media (max-width: 800px) {
@@ -225,7 +225,7 @@ section h2 {
 }
 
 .nav-links a:hover {
-  color: #4da3ff;
+  color: #2dd4bf;
 }
 
 h1,
@@ -253,8 +253,8 @@ section {
 
 .project-card:hover {
   transform: translateY(-6px);
-  border-color: #4da3ff;
-  box-shadow: 0 12px 30px rgba(77, 163, 255, 0.12);
+  border-color: #2dd4bf;
+  box-shadow: 0 12px 30px rgba(45, 212, 191, 0.12);
 }
 
 .project-card {
@@ -370,18 +370,18 @@ h2 {
 [data-theme="light"] section h2 { border-bottom-color: #d0d0d5; }
 [data-theme="light"] .navbar { background: rgba(247, 247, 248, 0.9); border-bottom-color: #d9d9de; }
 [data-theme="light"] .nav-links a { color: #1f2328; }
-[data-theme="light"] .nav-links a:hover { color: #0b69d4; }
+[data-theme="light"] .nav-links a:hover { color: #0f766e; }
 [data-theme="light"] .theme-toggle { border-color: #d0d0d5; }
 [data-theme="light"] .profile-pic { border-color: #d0d0d5; }
-[data-theme="light"] .btn-primary { background: #0b69d4; color: #fff; }
-[data-theme="light"] .btn-secondary { color: #0b69d4; border-color: #0b69d4; }
+[data-theme="light"] .btn-primary { background: #0f766e; color: #fff; }
+[data-theme="light"] .btn-secondary { color: #0f766e; border-color: #0f766e; }
 [data-theme="light"] .skills-list span { background: #fff; border-color: #d0d0d5; color: #1f2328; }
 [data-theme="light"] .skill-group-title { color: #666; }
 [data-theme="light"] .project-card { background: #fff; border-color: #dcdce1; color: #999; }
-[data-theme="light"] .project-card:hover { border-color: #0b69d4; box-shadow: 0 12px 30px rgba(11, 105, 212, 0.12); }
+[data-theme="light"] .project-card:hover { border-color: #0f766e; box-shadow: 0 12px 30px rgba(15, 118, 110, 0.12); }
 [data-theme="light"] .project-card h3 { color: #111; }
 [data-theme="light"] .project-card p { color: #444; }
-[data-theme="light"] .project-card a, [data-theme="light"] .contact-list a { color: #0b69d4; }
+[data-theme="light"] .project-card a, [data-theme="light"] .contact-list a { color: #0f766e; }
 [data-theme="light"] .project-img { border-color: #dcdce1; }
 
 .contact-list {
@@ -405,8 +405,8 @@ h2 {
 
 .contact-list a:hover {
   transform: translateY(-4px);
-  border-color: #4da3ff;
-  box-shadow: 0 10px 24px rgba(77, 163, 255, 0.15);
+  border-color: #2dd4bf;
+  box-shadow: 0 10px 24px rgba(45, 212, 191, 0.15);
   text-decoration: none;
 }
 
@@ -422,8 +422,8 @@ h2 {
 }
 
 [data-theme="light"] .contact-list a:hover {
-  border-color: #0b69d4;
-  box-shadow: 0 10px 24px rgba(11, 105, 212, 0.15);
+  border-color: #0f766e;
+  box-shadow: 0 10px 24px rgba(15, 118, 110, 0.15);
 }
 
 .practice-grid {
@@ -453,13 +453,13 @@ h2 {
 .practice-link {
   display: inline-block;
   margin-top: 22px;
-  color: #4da3ff;
+  color: #2dd4bf;
   text-decoration: none;
 }
 
 [data-theme="light"] .practice-card { background: #fff; border-color: #dcdce1; }
 [data-theme="light"] .practice-note { color: #666; }
-[data-theme="light"] .practice-link { color: #0b69d4; }
+[data-theme="light"] .practice-link { color: #0f766e; }
 
 .demo-note {
   text-align: center;
@@ -495,11 +495,11 @@ h2 {
 
 .exp-head h3 { margin: 0; font-size: 1.2rem; }
 .exp-date { font-size: 0.85rem; color: #8a8a8a; }
-.exp-company { margin: 6px 0 14px; color: #4da3ff; font-weight: 500; }
+.exp-company { margin: 6px 0 14px; color: #2dd4bf; font-weight: 500; }
 .exp-card ul { margin: 0; padding-left: 20px; }
 .exp-card li { line-height: 1.6; color: #b8b8b8; margin-bottom: 8px; }
 
 [data-theme="light"] .exp-card { background: #fff; border-color: #dcdce1; }
 [data-theme="light"] .exp-date { color: #666; }
-[data-theme="light"] .exp-company { color: #0b69d4; }
+[data-theme="light"] .exp-company { color: #0f766e; }
 [data-theme="light"] .exp-card li { color: #444; }
