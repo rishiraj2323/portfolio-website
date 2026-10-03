@@ -93,6 +93,50 @@ function App() {
 </div>
       </section>
 
+<section id="experience">
+  <h2>Experience</h2>
+  <div className="exp-list">
+    <div className="exp-card">
+      <div className="exp-head">
+        <h3>Data Analyst Intern</h3>
+        <span className="exp-date">June 2026 – August 2026</span>
+      </div>
+      <p className="exp-company">Mind Web Ventures · Remote</p>
+      <ul>
+        <li><strong>Objective:</strong> Transformed structured spatial, temporal and business data into analytical insights for data-backed decision-making.</li>
+        <li>Analyzed location-based and time-dependent datasets to identify geographic and temporal patterns relevant to locational intelligence.</li>
+        <li>Evaluated business and industrial data to identify trends, anomalies and risk-related patterns supporting predictive and decision-support analysis.</li>
+        <li>Prepared analytical outputs around risk and ESG-related metrics, converting raw datasets into interpretable insights for business use.</li>
+      </ul>
+    </div>
+
+    <div className="exp-card">
+      <div className="exp-head">
+        <h3>Database Intern</h3>
+        <span className="exp-date">June 2025 – July 2025</span>
+      </div>
+      <p className="exp-company">Zivanta Analytics · Remote</p>
+      <ul>
+        <li><strong>Objective:</strong> Worked on relational database operations to support structured data storage, retrieval and reporting workflows.</li>
+        <li>Designed and maintained relational tables with appropriate keys and constraints to organize structured business data.</li>
+        <li>Developed PostgreSQL queries using JOINs, subqueries, aggregation and filtering to retrieve and transform data for analysis.</li>
+        <li>Performed data validation and database maintenance to identify inconsistencies, duplicates and integrity issues in stored records.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="coursework">
+  <h2>Relevant Coursework</h2>
+  <div className="skills-list">
+    <span>Predictive Analysis</span>
+    <span>Machine Learning</span>
+    <span>Artificial Intelligence</span>
+    <span>Statistics</span>
+    <span>Database Management</span>
+    <span>Data Mining & Data Warehousing</span>
+  </div>
+</section>
 <section id="practice">
   <h2>Coding Practice</h2>
   <div className="practice-grid">
