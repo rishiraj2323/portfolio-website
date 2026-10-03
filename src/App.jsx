@@ -13,7 +13,7 @@ const hackerrank = {
   profileUrl: 'https://www.hackerrank.com/profile/rishiraj2323',
   skills: [
     { name: 'SQL', stars: 4 },
-    { name: 'Python', stars: 1, note: 'in progress' },
+    { name: 'Python', stars: 4 },
   ],
 }
 function App() {
@@ -135,6 +135,8 @@ function App() {
     <span>Statistics</span>
     <span>Database Management</span>
     <span>Data Mining & Data Warehousing</span>
+    <span>Computer Vision</span>
+    <span>Image Processing</span>
   </div>
 </section>
 <section id="practice">
