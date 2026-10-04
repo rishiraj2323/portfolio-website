@@ -12,7 +12,7 @@ import reviewImg from './assets/dashboard_overview.png'
 const hackerrank = {
   profileUrl: 'https://www.hackerrank.com/profile/rishiraj2323',
   skills: [
-    { name: 'SQL', stars: 4 },
+    { name: 'SQL', stars: 5 },
     { name: 'Python', stars: 4 },
   ],
 }
@@ -135,8 +135,6 @@ function App() {
     <span>Statistics</span>
     <span>Database Management</span>
     <span>Data Mining & Data Warehousing</span>
-    <span>Computer Vision</span>
-    <span>Image Processing</span>
   </div>
 </section>
 <section id="practice">

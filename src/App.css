@@ -503,3 +503,12 @@ h2 {
 [data-theme="light"] .exp-date { color: #666; }
 [data-theme="light"] .exp-company { color: #0f766e; }
 [data-theme="light"] .exp-card li { color: #444; }
+
+.contact-list a {
+  font-size: 1.1rem;
+  padding: 14px 26px;
+}
+
+.contact-list a::before {
+  font-size: 1.6rem;
+}
