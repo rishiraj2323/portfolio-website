@@ -512,3 +512,9 @@ h2 {
 .contact-list a::before {
   font-size: 1.6rem;
 }
+
+.profile-pic {
+  width: 240px;
+  height: 240px;
+  object-position: center top;
+}
